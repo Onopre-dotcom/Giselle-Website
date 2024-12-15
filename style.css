@@ -34,7 +34,25 @@ section#roleModel{
   position: relative;
   background-position: center;
   color: #fff;
-  
+}
+
+section#appleTv{
+  /* background-color: var(--rare-dark-gray);
+  color: white; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("Images/img-bg-appletv.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  color: #fff;
+}
+
+section#jobPacket{
+  background-color: #fff;
+}
+
+section#appleTv{
+  background-color: #ccc;
 }
 
 footer{
@@ -69,6 +87,15 @@ footer{
   background-color: #fff;
 }
 
+.img-shadow-blue{
+  box-shadow: 0.9rem 0.9rem #000, -0.9rem -0.9rem var(--rare-young-blue);
+  background-color: #000;
+}
+
+.diplay-b{
+  display: block;
+}
+
 /* ID'S */
 
 #daniel-img{
@@ -89,6 +116,11 @@ footer{
 #bird-img{
   max-width: 80%;
   max-height: 100%;
+}
+
+#packet-pdf{
+  max-width: 80%;
+  max-height: 100vh;
 }
 
 
