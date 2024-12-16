@@ -3,7 +3,7 @@ body{
 }
 header{
   min-height: 100vh;
-  color: #fff;
+  color: #000;
   background-color: #FFFFED;
 
 }
@@ -22,12 +22,12 @@ section#exp{
 
 section#roleModel{
   background-color: #FFFFED;
-  color: #fff;
+  color: #000;
 }
 
 section#appleTv{
   background-color: #FFFFED;
-  color: #fff;
+  color: #000;
 }
 
 section#jobPacket{
