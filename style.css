@@ -5,6 +5,11 @@ header{
   min-height: 100vh;
   color: #000;
   background-color: #FFFFED;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  font-family: 'Outfit' , sans-serif;
 
 }
 
@@ -28,15 +33,22 @@ section#roleModel{
 section#appleTv{
   background-color: #FFFFED;
   color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  font-family: 'Outfit' , sans-serif;
 }
 
 section#jobPacket{
   background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  font-family: 'Outfit' , sans-serif;
 }
 
-section#appleTv{
-  background-color: #ccc;
-}
 
 footer{
   background-color: #000;
