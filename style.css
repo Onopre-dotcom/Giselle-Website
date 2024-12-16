@@ -13,6 +13,11 @@ header{
 
 }
 
+.header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("Images/img-bg-appletv.jpg");
+
+}
+
 section{
   min-height: 100vh;
 }
