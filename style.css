@@ -4,12 +4,7 @@ body{
 header{
   min-height: 100vh;
   color: #fff;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("Images/img-header.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-position: center;
-  font-family: 'Outfit' , sans-serif;
+  background-color: #FFFFED;
 
 }
 
@@ -26,24 +21,12 @@ section#exp{
 }
 
 section#roleModel{
-  /* background-color: var(--rare-dark-gray);
-  color: white; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("Images/img-bg-roleModel.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-position: center;
+  background-color: #FFFFED;
   color: #fff;
 }
 
 section#appleTv{
-  /* background-color: var(--rare-dark-gray);
-  color: white; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("Images/img-bg-appletv.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-position: center;
+  background-color: #FFFFED;
   color: #fff;
 }
 
@@ -226,6 +209,59 @@ fs-
       background-color: #000;
       color: #fff;
     }
+}
+
+ /* For large screens (laptops, desktops) */
+ @media (min-width: 1024px) {
+  .iframe-pdf {
+    width: 600px;
+    height: 700px;
+  }
+  .iframe-slides{
+    width: 1000px;
+    height: 550px;
+    margin-left: 150px;
+  }
+}
+
+/* For smaller screens (tablets, mobile) */
+@media (max-width: 1023px) {
+  .iframe-pdf {
+    width: 100%;
+    height: auto;
+  }
+  .iframe-slides {
+    width: 100%;
+    height: auto;
+    margin-left: 0px;
+  }
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.iframe-container-pdf {
+  position: relative;
+  width: 100%;
+  max-width: 600px; /* Maximum width of the iframe */
+  height: 0;
+  padding-bottom: 116.67%; /* Aspect ratio (7/6 * 100) */
+  margin: 0 auto; /* Centering the iframe */
+}
+
+.iframe-container-slides {
+  position: relative;
+  width: 100%;
+  max-width: 1000px; /* Maximum width of the iframe */
+  height: 0;
+  padding-bottom: 55%; /* Aspect ratio (11/20 * 100) */
+  margin: 0 auto; /* Centering the iframe */
 }
 
 /* ANIMATING UNDERLINES */
